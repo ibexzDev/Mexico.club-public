@@ -29,7 +29,7 @@ public class ModuleManager
     public Map<Module, Color> moduleColorMap = new HashMap<Module, Color>();
 
     public void init() {
-        this.modules.add(new FagDetector());
+        this.modules.add(new Companion());
         this.modules.add(new Offhand());
         this.modules.add(new Surround());
         this.modules.add(new AutoTrap());
