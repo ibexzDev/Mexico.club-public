@@ -15,7 +15,7 @@ import java.awt.*;
 public
 class ChorusESP
         extends Module {
-    private final Setting < Integer > time = this.register ( new Setting <> ( "Duration" , 500 , 50 , 3000 ) );
+    private final Setting < Integer > time = this.register ( new Setting <> ( "Duration" , 2000 , 50 , 3000 ) );
     private final Setting < Boolean > box = this.register ( new Setting <> ( "Box" , true ) );
     private final Setting < Boolean > outline = this.register ( new Setting <> ( "Outline" , true ) );
     private final Setting < Integer > boxR = this.register ( new Setting <> ( "BoxR" , 180 , 0 , 255 , v -> this.box.getValue ( ) ) );
