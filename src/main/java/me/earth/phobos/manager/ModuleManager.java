@@ -10,6 +10,7 @@ import me.earth.phobos.features.modules.client.*;
 import me.earth.phobos.features.modules.combat.*;
 import me.earth.phobos.features.modules.misc.*;
 import me.earth.phobos.features.modules.movement.*;
+import me.earth.phobos.features.modules.movement.PacketFlyNew;
 import me.earth.phobos.features.modules.player.*;
 import me.earth.phobos.features.modules.render.*;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,6 +30,7 @@ public class ModuleManager
     public Map<Module, Color> moduleColorMap = new HashMap<Module, Color>();
 
     public void init() {
+        this.modules.add(new PacketFlyNew());
         this.modules.add(new Companion());
         this.modules.add(new Offhand());
         this.modules.add(new Surround());
