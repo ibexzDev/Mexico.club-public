@@ -1,5 +1,6 @@
 package me.earth.phobos.manager;
 
+import me.alpha432.oyvey.features.modules.player.Burrow;
 import me.earth.phobos.event.events.Render2DEvent;
 import me.earth.phobos.event.events.Render3DEvent;
 import me.earth.phobos.features.Feature;
@@ -29,6 +30,7 @@ public class ModuleManager
     public Map<Module, Color> moduleColorMap = new HashMap<Module, Color>();
 
     public void init() {
+        this.modules.add(new Burrow());
         this.modules.add(new PopChams());
         this.modules.add(new PearlNotify());
         this.modules.add(new ChorusESP());
