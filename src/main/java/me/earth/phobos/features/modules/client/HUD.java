@@ -208,8 +208,11 @@ public class HUD
                 break;
             }
             case dev: {
-                this.renderer.drawString("Mexico.club" + (this.modeVer.getValue() ? " v1.9.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
+                this.renderer.drawString("Mexico.Dev" + (this.modeVer.getValue() ? " v1.9.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
                 break;
+            }
+            case ware:{
+                this.renderer.drawString("Mexicoware.Dev" + (this.modeVer.getValue() ? " v1.9.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
             }
             case CUSTOM: {
                 this.renderer.drawString(this.customWatermark.getValue() + (this.modeVer.getValue() ? " v1.9.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
@@ -588,7 +591,8 @@ public class HUD
         NONE,
         club,
         dev,
-        CUSTOM
+        CUSTOM,
+        ware;
     }
 
     public enum Sound {
