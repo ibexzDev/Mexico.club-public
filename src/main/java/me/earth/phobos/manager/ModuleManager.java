@@ -29,6 +29,7 @@ public class ModuleManager
     public Map<Module, Color> moduleColorMap = new HashMap<Module, Color>();
 
     public void init() {
+        this.modules.add(new Aspect());
         this.modules.add(new ItemPhysics());
         this.modules.add(new Quiver());
         this.modules.add(new Companion());
