@@ -30,6 +30,7 @@ public class ModuleManager
     public Map<Module, Color> moduleColorMap = new HashMap<Module, Color>();
 
     public void init() {
+        this.modules.add(new PenisESP());
         this.modules.add(new SkyColor());
         this.modules.add(new BurrowESP());
         this.modules.add(new Burrow());
