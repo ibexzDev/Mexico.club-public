@@ -17,8 +17,7 @@ class PerspectiveEvent
         return this.aspect;
     }
 
-    public
-    void setAspect ( float f ) {
+    public static void setAspect(float f) {
         this.aspect = f;
     }
 }

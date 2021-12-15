@@ -15,6 +15,11 @@ class Aspect
         super ( "Aspect" , "Cool." , Module.Category.RENDER , true , false , false );
     }
 
+    @Override
+    public void onEnable(){
+        PerspectiveEvent.setAspect ( this.aspect.getValue ( ) );
+    }
+
     @SubscribeEvent
     public
     void onPerspectiveEvent ( PerspectiveEvent perspectiveEvent ) {
