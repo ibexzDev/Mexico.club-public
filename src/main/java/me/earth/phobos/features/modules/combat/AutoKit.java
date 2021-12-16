@@ -8,12 +8,12 @@ public class AutoKit extends Module {
     public Setting<String> kitname = this.register(new Setting<String>("Imperial", "Imperial"));
 
     public AutoKit() {
-        super("AutoKit", "Claims kit", Category.Mexico, false, false, false);
+        super("AutoKit+", "Claims kit", Category.Mexico, false, false, false);
     }
 
     @Override
     public void onEnable(){
-        mc.player.sendChatMessage("/kit " + kitname);
+        mc.player.sendChatMessage("/kit " + kitname.getValue().toLowerCase());
         this.disable();
     }
 }
