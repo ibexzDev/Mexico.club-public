@@ -30,7 +30,6 @@ public class ModuleManager
     public Map<Module, Color> moduleColorMap = new HashMap<Module, Color>();
 
     public void init() {
-        this.modules.add(new Timestamps());
         this.modules.add(new HitMarkers());
         this.modules.add(new AutoKit());
         this.modules.add(new PopCounter());
