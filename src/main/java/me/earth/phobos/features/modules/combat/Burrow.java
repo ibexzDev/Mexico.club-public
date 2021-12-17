@@ -30,7 +30,7 @@ public class Burrow extends Module
     Block returnBlock;
 
     public Burrow() {
-        super("Burrow", "Rubberbands u in a block", Category.COMBAT, true, false, false);
+        super("Burrow", "Rubberbands u in a block", Category.COMBAT , true, false, false);
         this.offset = (Setting<Integer>)this.register(new Setting("Offset", 3, (-5), 5));
         this.rotate = (Setting<Boolean>)this.register(new Setting("Rotate", false));
         this.mode = (Setting<Mode>)this.register(new Setting("Mode", Mode.OBBY));
