@@ -57,7 +57,7 @@ public class Phobos {
     }
 
     public static void load() {
-        LOGGER.info("\n\nLoading Mexico.club 1.9.0");
+        LOGGER.info("\n\nLoading Mexico.club 1.3.2");
         unloaded = false;
         if (reloadManager != null) {
             reloadManager.unload();

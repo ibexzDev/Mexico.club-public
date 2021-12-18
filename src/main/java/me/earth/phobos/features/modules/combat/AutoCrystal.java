@@ -226,7 +226,7 @@ public class AutoCrystal
         instance = this;
     }
 
-    public static AutoCrystal getInstance() {
+       public static AutoCrystal getInstance() {
         if (instance == null) {
             instance = new AutoCrystal();
         }

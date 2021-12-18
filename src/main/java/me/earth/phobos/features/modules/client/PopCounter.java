@@ -40,9 +40,9 @@ public class PopCounter
             int l_Count = TotemPopContainer.get(player.getName());
             TotemPopContainer.remove(player.getName());
             if (l_Count == 1) {
-                Command.sendMessage(ChatFormatting.RED + player.getName() + " died after popping " + ChatFormatting.GREEN + l_Count + ChatFormatting.RED + " Totem!");
+                Command.sendMessage(ChatFormatting.DARK_PURPLE + player.getName() + " died after popping " + ChatFormatting.GREEN + l_Count + ChatFormatting.RED + " Totem!");
             } else {
-                Command.sendMessage(ChatFormatting.RED + player.getName() + " died after popping " + ChatFormatting.GREEN + l_Count + ChatFormatting.RED + " Totems!");
+                Command.sendMessage(ChatFormatting.DARK_PURPLE + player.getName() + " died after popping " + ChatFormatting.GREEN + l_Count + ChatFormatting.RED + " Totems!");
             }
         }
     }

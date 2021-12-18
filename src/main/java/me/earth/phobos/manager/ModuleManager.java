@@ -41,7 +41,6 @@ public class ModuleManager
         this.modules.add(new PearlNotify());
         this.modules.add(new ChorusESP());
         this.modules.add(new BreakingESP());
-        this.modules.add(new ItemPhysics());
         this.modules.add(new Quiver());
         this.modules.add(new Companion());
         this.modules.add(new Offhand());
@@ -216,7 +215,6 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(RPC.class), new Color(0, 64, 255));
         this.moduleColorMap.put(this.getModuleByClass(Spammer.class), new Color(140, 87, 166));
         this.moduleColorMap.put(this.getModuleByClass(ToolTips.class), new Color(209, 125, 156));
-        this.moduleColorMap.put(this.getModuleByClass(Translator.class), new Color(74, 82, 15));
         this.moduleColorMap.put(this.getModuleByClass(Tracker.class), new Color(0, 255, 225));
         this.moduleColorMap.put(this.getModuleByClass(GhastNotifier.class), new Color(200, 200, 220));
         this.moduleColorMap.put(this.getModuleByClass(OffscreenESP.class), new Color(193, 219, 20));

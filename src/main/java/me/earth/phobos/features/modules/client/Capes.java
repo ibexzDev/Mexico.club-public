@@ -17,11 +17,8 @@ public class Capes
 
     public Capes() {
         super("Capes", "Renders the client's capes", Module.Category.CLIENT, false, false, false);
-        UUIDs.put("Megyn", new String[]{"a5e36d37-5fbe-4481-b5be-1f06baee1f1c", "7de842e8-af08-49ed-9d0c-4071e2a99f00", "8ca55379-c872-4299-987d-d20962badd11", "e6e8bf7e-0b23-4d2e-b2ae-c40c5ff4eecc"});
-        UUIDs.put("zb0b", new String[]{"0aa3b04f-786a-49c8-bea9-025ee0dd1e85"});
         UUIDs.put("BetaCalculatorMC", new String[]{"BetaCalculatorMC"});
         UUIDs.put("AlphaArmor", new String[]{"0de5649a-0086-4b46-861e-675630e1db7e"});
-        UUIDs.put("Squid", new String[]{"811c9272-9793-4fdd-980d-778e8ad2e54c", "09410a87-dfc8-476c-9acb-04bd07126c6e", "2eb88d28-7a26-43ad-81aa-113bd818d977"});
         instance = this;
     }
 

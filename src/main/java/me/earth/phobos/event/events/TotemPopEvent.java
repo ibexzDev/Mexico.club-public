@@ -14,5 +14,7 @@ public class TotemPopEvent
     public EntityPlayer getEntity() {
         return this.entity;
     }
+
+
 }
 
