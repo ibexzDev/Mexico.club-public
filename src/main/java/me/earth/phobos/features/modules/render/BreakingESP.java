@@ -30,7 +30,6 @@ public class BreakingESP
         BAR,
         ALPHA,
         WIDTH
-
     }
 }
 
